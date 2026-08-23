@@ -1,0 +1,21 @@
+# JavaScript dependencies and build output
+node_modules/
+.pnpm-store/
+dist/
+
+# Python virtual environment and caches
+venv/
+__pycache__/
+*.py[cod]
+
+# Tauri and compiled application artifacts
+src-tauri/target/
+src-tauri/resources/graph_maker.exe
+*.exe
+*.pdb
+
+# Local editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
